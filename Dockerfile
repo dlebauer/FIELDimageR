@@ -1,4 +1,4 @@
-FROM rocker/binder:4.0.1
+FROM rocker/binder:4.0.3
 LABEL maintainer="Chris Schnaufer <schnaufer@email.arizona.edu>"
 
 RUN install2.r --error --skipinstalled \	
